@@ -1,0 +1,17 @@
+
+config 'wifi-device' 'radio0'
+	option 'type' 'mac80211'
+	option 'macaddr' '00:1f:a3:47:64:6e'
+	option 'hwmode' '11g'
+	option 'disabled' '0'
+	option 'txpower' '20'
+	option 'country' '00'
+	option 'channel' '1'
+
+config 'wifi-iface'
+	option 'encryption' 'none'
+	option 'device' 'radio0'
+	option 'mode' 'sta'
+	option 'ssid' 'chinaunicom'
+	option 'network' 'wwan'
+

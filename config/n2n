@@ -1,0 +1,15 @@
+
+config 'setting'
+
+config 'edge'
+	option 'key' '1234'
+	option 'route' '1'
+	option 'mtu' '1300'
+	option 'community' 'nuptosse'
+	option 'ipaddr' '172.16.0.1'
+	option 'supernode' '58.252.61.130'
+	option 'port' '53'
+
+config 'supernode'
+	option 'port' '82'
+

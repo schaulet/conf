@@ -1,0 +1,97 @@
+
+config 'network'
+	option 'init' 'network'
+	list 'affects' 'dhcp'
+	list 'affects' 'radvd'
+
+config 'wireless'
+	list 'affects' 'network'
+
+config 'firewall'
+	option 'init' 'firewall'
+	list 'affects' 'luci-splash'
+	list 'affects' 'qos'
+	list 'affects' 'miniupnpd'
+
+config 'olsr'
+	option 'init' 'olsrd'
+
+config 'dhcp'
+	option 'init' 'dnsmasq'
+
+config 'dropbear'
+	option 'init' 'dropbear'
+
+config 'httpd'
+	option 'init' 'httpd'
+
+config 'fstab'
+	option 'init' 'fstab'
+
+config 'qos'
+	option 'init' 'qos'
+
+config 'system'
+	option 'init' 'led'
+	list 'affects' 'luci_statistics'
+
+config 'luci_splash'
+	option 'init' 'luci_splash'
+
+config 'upnpd'
+	option 'init' 'miniupnpd'
+
+config 'ntpclient'
+	option 'init' 'ntpclient'
+
+config 'samba'
+	option 'init' 'samba'
+
+config 'tinyproxy'
+	option 'init' 'tinyproxy'
+
+config 'ddns'
+	option 'init' 'ddns'
+
+config 'hd-idle'
+	option 'init' 'hd-idle'
+
+config 'mldonkey'
+	option 'init' 'mldonkey'
+
+config 'n2n'
+	option 'init' 'n2n'
+
+config 'nwan'
+	option 'init' 'nwan'
+
+config 'nwannumset'
+	option 'init' 'nwannumset'
+
+config 'p910nd'
+	option 'init' 'p910nd'
+
+config 'pppoeserver'
+	option 'init' 'pppoeserver'
+
+config 'pptpd'
+	option 'init' 'pptpd'
+
+config 'qosv4'
+	option 'init' 'qosv4'
+
+config 'radvd'
+	option 'init' 'radvd'
+
+config 'transmission'
+	option 'init' 'transmission'
+
+config 'trextra'
+	option 'init' 'trextra'
+
+config 'ushare'
+	option 'init' 'ushare'
+
+config 'vsftpd'
+	option 'init' 'vsftpd'
+

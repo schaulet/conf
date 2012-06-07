@@ -1,0 +1,21 @@
+
+config 'goble'
+	option 'check_interval' '100'
+	option 'enabled' '1'
+
+config 'service' '3322'
+	option 'ip_source' 'network'
+	option 'force_interval' '72'
+	option 'force_unit' 'hours'
+	option 'check_interval' '10'
+	option 'check_unit' 'minutes'
+	option 'enabled' '1'
+	option 'service_name' 'dyndns.org'
+	option 'neiwang' '1'
+	option 'domain' 'liangyongqing.dyndns.org'
+	option 'username' 'liuwen'
+	option 'password' '85618302'
+	option 'ip_network' 'wwan'
+	option 'uptime' 'Tue Aug 23 10:12:40 2011'
+	option 'ipaddr' '112.86.184.195'
+

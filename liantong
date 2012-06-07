@@ -1,0 +1,10 @@
+# written by pptpsetup
+pty "pptp 10.200.25.195 --nolaunchpppd"
+lock
+noauth
+nobsdcomp
+nodeflate
+name bigroom
+remotename liantong
+ipparam liantong
+require-mppe-128

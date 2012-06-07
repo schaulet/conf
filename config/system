@@ -1,0 +1,9 @@
+config 'system'
+	option 'hostname' 'OpenWrt'
+	option 'zonename' 'Asia/Shanghai'
+	option 'timezone' 'CST-8'
+	option 'conloglevel' '8'
+	option 'cronloglevel' '8'
+
+config rdate
+	option interface	wan

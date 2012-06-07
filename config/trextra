@@ -1,0 +1,24 @@
+
+config 'trextraqueueemail'
+	option 'queue_max_downloadings' '1'
+	option 'queue_max_seedings' '5'
+	option 'queue_interval' '30'
+	option 'email_enable' '1'
+	option 'from_address' 'admin@nuptosse.org'
+	option 'smtp_address' 'smtp.qq.com'
+	option 'smtp_user' 'admin@nuptosse.org'
+	option 'smtp_password' '6RGEmTAO8'
+	option 'queue_enabled' '1'
+
+config 'mail_address'
+	option 'finish' '1'
+	option 'use_enable' '1'
+	option 'low_speed' '10'
+	option 'address' 'lyq.0617@gmail.com'
+
+config 'mail_address'
+	option 'address' 'openwrt@163.com'
+	option 'low_speed' '15'
+	option 'use_enable' '0'
+	option 'finish' '0'
+
